@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+// import ItemList from './ItemsList/ItemList';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+// import Item from './ItemsList/Item';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+{/* <PlanCard /> */}
+{/* <ItemList /> */}
+{/* <Item /> */}
   </React.StrictMode>
 );
 
