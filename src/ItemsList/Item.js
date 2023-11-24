@@ -1,5 +1,6 @@
 import React from "react";
 import ItemList from "./ItemList";
+//Truyền data 
 const Item = () =>{
     const items = [
         {
@@ -31,12 +32,14 @@ const Item = () =>{
             rating : 3,
         }
     ];
+    //trả về dữ liệu
     return (
-        <div className="container-fluid">
+        <div className="container-fluid"> 
             <div className="container p-5">
                 <div className="row">
-                    {items.map((item,index)=>(
-                        <div key={index} className="col-lg-4 col-md-12 mb-4">
+                    {items.map((item,id)=>(
+                        <div key={id} className="col-lg-4 col-md-12 mb-4">
+                            {/* truyền giá trị của function Itemlist */}
                             <ItemList {...item} />
                         </div>
                     ))}

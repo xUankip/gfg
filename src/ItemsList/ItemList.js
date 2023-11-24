@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 
 const ItemList =({id, image, name, price, rating}) =>{
@@ -8,7 +9,7 @@ return (
                <img className="w-100" src={image}/>
             <h4 className="fw-nomarl">{name}</h4>
             <small className="fw-light">${price}</small>
-            <h5 className="fw-light">Rate {rating} ⭐️</h5>
+            <h5 className="fw-light">Rate {rating}</h5>
             <br></br>
         </div>
     </div>
