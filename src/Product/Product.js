@@ -18,9 +18,9 @@ return (
             {discount >0 && (
             <p className="discounted-price">${price.toFixed(2)}</p>
             )}
-            <p className="original-price">&{discountedPrice.toFixed(2)}</p>
+            <p className="original-price">${discountedPrice.toFixed(2)}</p>
         </div>
-        <div className="rating">{stars}</div>
+        <div className="rating-svg">{stars}</div>
         {sale ? (
         <button className="add-to-card">Add to Card</button>
         ) : (

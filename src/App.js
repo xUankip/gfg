@@ -4,6 +4,8 @@ import"../src/css/style.css"
 import Item from "./ItemsList/Item";
 import Product from "./Product/Product";
 import ProductList from "./Product/ProductList";
+import NikeShoe from "./Nike/NIkeShoe";
+
 // import Navbar from "./Navbar";
 // import PricingHeader from "./PricingHeader.js";
 // import Plans from "./Plans";
@@ -15,7 +17,9 @@ export default function App() {
   return (
     <div className="App" id="top">
       {/* <Product /> */}
-      <ProductList />
+      <NikeShoe />
+      {/* <Shoes /> */}
+      {/* <ProductList /> */}
       {/* <Navbar /> */}
       {/* <Item /> */}
       {/* <PricingHeader /> */}
