@@ -12,7 +12,7 @@ const shoes = [
         discount : 20,
         rating : 4.5,
         sale : false,
-        
+        img : 'https://i.imgur.com/RBX2mVS.png'
         
     },
     {
@@ -25,6 +25,7 @@ const shoes = [
             {text : "5 Colours"},
         ],
         rating : 4,
+        img : 'https://i.imgur.com/7FvoUcc.png',
         sale : false
     },
     {
@@ -37,6 +38,7 @@ const shoes = [
         ],
         discount : 15,
         rating : '3,5',
+        img : 'https://i.imgur.com/BB7PLr4.png',
         sale : true
     },
     {
@@ -49,6 +51,7 @@ const shoes = [
         ],
         rating: 5,
         discount : 23,
+        img : 'https://i.imgur.com/vA4yVEC.png',
         sale : true
     },
     {
@@ -61,6 +64,7 @@ const shoes = [
         ],
         rating : '3,5',
         discount : 0,
+        img : 'https://i.imgur.com/kNMp2SG.png',
         sale : true
     },
     {
@@ -73,6 +77,7 @@ const shoes = [
         ],
         discount : 0,
         rating : 5,
+        img : 'https://i.imgur.com/nrVlg2r.png',
         sale : false
     }
 ]
